@@ -116,7 +116,7 @@ by the arrows */
 
 
  if (arrowGroup.isTouching(redB)) {
-  blueB.destroyEach();
+  redB.destroyEach();
    arrowGroup.destroyEach();
  }
 
